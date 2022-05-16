@@ -113,6 +113,7 @@ footer>.logo {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* Section Features */
@@ -154,6 +155,7 @@ footer>.logo {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    cursor: pointer;
 }
 
 .button-portfolio:hover,
