@@ -1,0 +1,101 @@
+/* Цвет основного теста #775755; */
+/* Вторичный цвет текста #212121 */
+/* Цвет акцент #2196F3 */
+/* Белый цвет #FFFFFF */
+/*Цвет адресса в подвале rgba(255, 255, 255, 0.6); */
+/* Вторичный цвет фона #2F303A; */
+:root{
+    --primery-text-color: #775755;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --accent-bgc: #2F303A;
+    --white-color: #FFFFFF;
+}
+
+body{
+background-color: var(--white-color);
+color: var(--primery-text-color)
+}
+.list{
+    list-style: none;
+}
+
+/* Logo */
+.web-logo{
+    color: var(--accent-color);
+}
+.logo{
+    color: #000000;
+}
+footer > .logo{
+    color: var(--white-color);
+}
+
+/* Navigation */
+.site-nav .link{
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, .site-nav .link:focus,
+.auth-nav .link:hover, .auth-nav .link:focus{
+    color: var(--accent-color);
+}
+.auth-nav .link{
+    color: var(--primery-text-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title{
+    color: var(--white-color);
+}
+.hero{
+    background-color: var(--accent-bgc);
+}
+.button-hero{
+     color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* Section */
+.title{
+    color: var(--title-text-color);
+}
+
+/* Features list */
+.features{
+
+}
+
+/* Work box */
+.work{
+
+}
+
+/* Team */
+.team{
+
+}
+
+/* Main portfolio */
+.button-portfolio{
+    color: var(--title-text-color);
+    background-color: #F5F4FA;;
+}
+
+/* Project portfolio */
+.project-text{
+    color: var(--primery-text-color);
+}
+
+/* Footer */
+.footer{
+background-color: var(--accent-bgc);
+}
+.text-footer{
+    color: var(--white-color);
+}
+.contact-footer{
+    color: rgba(255, 255, 255, 0.6);;
+}
