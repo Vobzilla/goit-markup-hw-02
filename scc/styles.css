@@ -32,6 +32,9 @@ body {
     margin: -1px;
 }
 
+.link {
+    text-decoration: none;
+}
 
 .list {
     list-style: none;
@@ -52,7 +55,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    text-decoration: none;
 }
 
 footer>.logo {
@@ -66,7 +68,6 @@ footer>.logo {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -82,7 +83,6 @@ footer>.logo {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 
 .site-nav .link.current {
@@ -97,6 +97,7 @@ footer>.logo {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero {
@@ -113,6 +114,7 @@ footer>.logo {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    font-family: Roboto, sans-serif;
     cursor: pointer;
 }
 
@@ -121,6 +123,7 @@ footer>.logo {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .features-text {
@@ -156,6 +159,7 @@ footer>.logo {
     font-size: 16px;
     line-height: 1.62;
     cursor: pointer;
+    font-family: Roboto, sans-serif;
 }
 
 .button-portfolio:hover,
@@ -192,5 +196,4 @@ footer>.logo {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
-    text-decoration: none;
 }
